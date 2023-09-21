@@ -1,0 +1,95 @@
+{
+  "apps": [
+    {
+      "Updated": "2023-03-05T16:28:50.134466+07:00",
+      "Version": "22.01",
+      "Name": "7zip",
+      "Source": "main",
+      "Info": ""
+    },
+    {
+      "Updated": "2023-09-21T14:22:36.4117323+07:00",
+      "Version": "0.23.0",
+      "Name": "bat",
+      "Source": "main",
+      "Info": ""
+    },
+    {
+      "Updated": "2023-09-20T18:30:46.0745831+07:00",
+      "Version": "0.13.0",
+      "Name": "eza",
+      "Source": "main",
+      "Info": ""
+    },
+    {
+      "Updated": "2023-03-05T16:26:08.2075693+07:00",
+      "Version": "0.38.0",
+      "Name": "fzf",
+      "Source": "main",
+      "Info": ""
+    },
+    {
+      "Updated": "2023-04-02T23:03:43.0528348+07:00",
+      "Version": "2.14.2",
+      "Name": "hub",
+      "Source": "main",
+      "Info": ""
+    },
+    {
+      "Updated": "2023-09-21T14:23:12.1247245+07:00",
+      "Version": "643",
+      "Name": "less",
+      "Source": "main",
+      "Info": ""
+    },
+    {
+      "Updated": "2023-03-10T18:14:10.7521296+07:00",
+      "Version": "0.8.3",
+      "Name": "neovim",
+      "Source": "main",
+      "Info": ""
+    },
+    {
+      "Updated": "2023-04-23T15:34:01.8046465+07:00",
+      "Version": "8.3.1",
+      "Name": "pnpm",
+      "Source": "main",
+      "Info": ""
+    },
+    {
+      "Updated": "2023-03-09T11:21:11.0377405+07:00",
+      "Version": "1.13.1",
+      "Name": "starship",
+      "Source": "main",
+      "Info": ""
+    },
+    {
+      "Updated": "2023-03-13T00:30:24.3396583+07:00",
+      "Version": "0.2020.01.26",
+      "Name": "sudo",
+      "Source": "main",
+      "Info": ""
+    },
+    {
+      "Updated": "2023-03-05T16:28:52.0163841+07:00",
+      "Version": "0.10.0",
+      "Name": "terminal-icons",
+      "Source": "extras",
+      "Info": ""
+    }
+  ],
+  "buckets": [
+    {
+      "Name": "extras",
+      "Source": "https://github.com/ScoopInstaller/Extras",
+      "Updated": "2023-09-21T19:32:05+07:00",
+      "Manifests": 1889
+    },
+    {
+      "Name": "main",
+      "Source": "https://github.com/ScoopInstaller/Main",
+      "Updated": "2023-09-21T19:31:39+07:00",
+      "Manifests": 1247
+    }
+  ]
+}
