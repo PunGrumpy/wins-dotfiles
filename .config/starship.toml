@@ -1,0 +1,158 @@
+# Directory
+[directory]
+style = "blue"
+truncation_length = 2
+truncation_symbol = "…/" 
+read_only = " 🔒"
+
+# Prompt
+[sudo]
+format = "👮 [$user]($style)[$symbol]($style) "
+style = "red"
+symbol = "#"
+
+[username]
+show_always = true
+format = "🦈 [$user]($style)[$symbol]($style) "
+style_root = "red bold"
+style_user = "green bold"
+
+[character]
+success_symbol = "[❯](purple)"
+error_symbol = "[❯](red)"
+vimcmd_symbol = "[❮](green)"
+
+# Git
+[git_branch]
+format = "😺 [$branch]($style) "
+style = "bold green"
+
+[git_status]
+conflicted = "🚩"
+ahead = "💨"
+behind = "😰"
+diverged = "😵"
+up_to_date = ""
+untracked = "🤷"
+stashed = "📦"
+modified = "📝"
+staged = '[++\($count\)](green)'
+renamed = "👅"
+deleted = "🗑️"
+
+# Duration
+[cmd_duration]
+format = "[$duration]($style) "
+style = "yellow"
+
+# Development
+[aws]
+format = "via [$symbol$profile]($style) "
+style = "bright-black"
+symbol = "☁️ "
+
+[gcloud]
+format = "via [$symbol$account]($style) "
+style = "bright-black"
+symbol = "💨 "
+
+[conda]
+format = "via [$symbol$environment]($style) "
+style = "bright-black"
+symbol = "🐉 "
+
+[python]
+format = "via [$symbol$version]($style) "
+style = "bright-black"
+symbol = "🐍 "
+
+[rust]
+format = "via [$symbol$version]($style) "
+style = "bright-black"
+symbol = "🦀 "
+
+[swift]
+format = "via [$symbol$version]($style) "
+style = "bright-black"
+symbol = "🕊️ "
+
+[dotnet]
+format = "via [$symbol$version]($style) "
+style = "bright-black"
+symbol = "🔧 "
+
+[nodejs]
+format = "via [$symbol$version]($style) "
+style = "bright-black"
+symbol = "👽 "
+
+[ruby]
+format = "via [$symbol$version]($style) "
+style = "bright-black"
+symbol = "💎 "
+
+[java]
+format = "via [$symbol$version]($style) "
+style = "bright-black"
+symbol = "☕ "
+
+[gradle]
+format = "via [$symbol$version]($style) "
+style = "bright-black"
+symbol = "🐘 "
+
+[c]
+format = "via [$symbol$version]($style) "
+style = "bright-black"
+symbol = "👮 "
+detect_extensions = ["c", "h", "cpp"]
+
+[cmake]
+format = "via [$symbol$version]($style) "
+style = "bright-black"
+symbol = "🛠️ "
+
+[golang]
+format = "via [$symbol$version]($style) "
+style = "bright-black"
+symbol = "🐹 "
+
+[bun]
+format = "via [$symbol$version]($style) "
+style = "bright-black"
+symbol = "🥐 "
+
+[helm]
+format = "via [$symbol$version]($style) "
+style = "bright-black"
+symbol = "⛑️ "
+
+[kubernetes]
+format = "via [$symbol$context]($style) "
+style = "bright-black"
+symbol = "☸️ "
+
+[docker_context]
+format = "via [$symbol$context]($style) "
+style = "bright-black"
+symbol = "🐳 "
+
+[terraform]
+format = "via [$symbol$workspace]($style) "
+style = "bright-black"
+symbol = "🌍 "
+
+[deno]
+format = "via [$symbol$version]($style) "
+style = "bright-black"
+symbol = "🦕 "
+
+[elixir]
+format = "via [$symbol$version]($style) "
+style = "bright-black"
+symbol = "💧 "
+
+[vagrant]
+format = "via [$symbol$version]($style) "
+style = "bright-black"
+symbol = "✈️ "
