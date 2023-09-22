@@ -1,9 +1,3 @@
-# Environment Variables
-[env_var.STARSHIP_DISTRO]
-format = 'working [$env_value]($style) '
-variable = "STARSHIP_DISTRO"
-disabled = false
-
 # Directory
 [directory]
 style = "blue"

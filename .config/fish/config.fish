@@ -17,7 +17,6 @@ set -g theme_hostname always
 
 # Starship prompt
 if command -qv starship &> /dev/null
-    source (dirname (status --current-filename))/starship.fish
     eval (starship init fish)
 end
 
