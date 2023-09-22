@@ -48,111 +48,112 @@ style = "yellow"
 # Development
 [aws]
 format = "via [$symbol$profile]($style) "
-style = "bright-black"
+style = "dimmed bright-yellow"
 symbol = "☁️ "
 
 [gcloud]
 format = "via [$symbol$account]($style) "
-style = "bright-black"
+style = "dimmed bright-yellow"
 symbol = "💨 "
 
 [conda]
 format = "via [$symbol$environment]($style) "
-style = "bright-black"
+style = "dimmed bright-yellow"
 symbol = "🐉 "
 
 [python]
 format = "via [$symbol$version]($style) "
-style = "bright-black"
+style = "dimmed bright-yellow"
 symbol = "🐍 "
 
 [rust]
 format = "via [$symbol$version]($style) "
-style = "bright-black"
+style = "dimmed bright-yellow"
 symbol = "🦀 "
 
 [swift]
 format = "via [$symbol$version]($style) "
-style = "bright-black"
+style = "dimmed bright-yellow"
 symbol = "🕊️ "
 
 [dotnet]
 format = "via [$symbol$version]($style) "
-style = "bright-black"
+style = "dimmed bright-yellow"
 symbol = "🔧 "
 
 [nodejs]
 format = "via [$symbol$version]($style) "
-style = "bright-black"
+style = "dimmed bright-yellow"
 symbol = "👽 "
 
 [ruby]
 format = "via [$symbol$version]($style) "
-style = "bright-black"
+style = "dimmed bright-yellow"
 symbol = "💎 "
 
 [java]
 format = "via [$symbol$version]($style) "
-style = "bright-black"
+style = "dimmed bright-yellow"
 symbol = "☕ "
 
 [gradle]
 format = "via [$symbol$version]($style) "
-style = "bright-black"
+style = "dimmed bright-yellow"
 symbol = "🐘 "
 
 [c]
 format = "via [$symbol$version]($style) "
-style = "bright-black"
+style = "dimmed bright-yellow"
 symbol = "👮 "
 detect_extensions = ["c", "h", "cpp"]
 
 [cmake]
 format = "via [$symbol$version]($style) "
-style = "bright-black"
+style = "dimmed bright-yellow"
 symbol = "🛠️ "
 
 [golang]
 format = "via [$symbol$version]($style) "
-style = "bright-black"
+style = "dimmed bright-yellow"
 symbol = "🐹 "
 
 [bun]
 format = "via [$symbol$version]($style) "
-style = "bright-black"
+style = "dimmed bright-yellow"
 symbol = "🥐 "
 
 [helm]
 format = "via [$symbol$version]($style) "
-style = "bright-black"
+style = "dimmed bright-yellow"
 symbol = "⛑️ "
 
 [kubernetes]
 format = "via [$symbol$context]($style) "
-style = "bright-black"
+style = "dimmed bright-yellow"
 symbol = "☸️ "
 
 [docker_context]
 format = "via [$symbol$context]($style) "
-style = "bright-black"
+style = "dimmed bright-yellow"
 symbol = "🐳 "
 
 [terraform]
 format = "via [$symbol$workspace]($style) "
-style = "bright-black"
+style = "dimmed bright-yellow"
 symbol = "🌍 "
 
 [deno]
 format = "via [$symbol$version]($style) "
-style = "bright-black"
+style = "dimmed bright-yellow"
 symbol = "🦕 "
 
 [elixir]
 format = "via [$symbol$version]($style) "
-style = "bright-black"
+style = "dimmed bright-yellow"
 symbol = "💧 "
 
 [vagrant]
 format = "via [$symbol$version]($style) "
-style = "bright-black"
+style = "dimmed bright-yellow"
 symbol = "✈️ "
+
