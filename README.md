@@ -25,7 +25,7 @@ This repository contains my personal dotfiles for Windows. I use [Git Bash](http
 ## `🎐` Commitizen configuration
 
 - [Commitizen](https://github.com/commitizen/cz-cli) - The commitizen command line utility. `npm install -g commitizen`
-- [CZ Emoji Conventional Message](https://github.com/PunGrumpy/cz-emoji-conventional-message) - A commitizen adapter for the conventional changelog preset with emoji. `cz-emoji-conventional-message`
+- [CZ Emoji Conventional Message](https://github.com/PunGrumpy/cz-emoji-conventional-message) - A commitizen adapter for the conventional changelog preset with emoji. `npm install -g cz-emoji-conventional-message`
 
 ## `📜` License
 
