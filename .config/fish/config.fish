@@ -2,8 +2,6 @@ set fish_greeting ""
 
 set -gx TERM xterm-256color
 
-set -l title (hostname)
-
 set -gx EDITOR nvim
 
 set -gx PATH bin $PATH
@@ -19,6 +17,7 @@ set -g theme_hostname always
 
 # Starship prompt
 if command -qv starship &> /dev/null
+    source (dirname (status --current-filename))/starship.fish
     eval (starship init fish)
 end
 
@@ -31,6 +30,6 @@ alias g git
 alias vim nvim
 command -qv nvim && alias vim nvim
 if type -q eza
-    alias ll "eza -l -g --icons"
+    alias ll "eza -l --group --icons --long"
     alias lla "ll -a"
 end
